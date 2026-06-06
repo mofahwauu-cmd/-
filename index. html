@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>هدية لسارة</title>
+<style>
+body{background:#1a1a2e;color:#fff;text-align:center;font-family:Arial;padding:50px}
+input{padding:10px;border-radius:10px;border:none;margin:10px;width:200px;text-align:center}
+button{padding:10px 30px;border-radius:10px;border:none;background:#ff4d6d;color:#fff;font-size:18px;cursor:pointer}
+#gift{display:none;margin-top:30px;line-height:2.2;font-size:20px;max-width:650px;margin-left:auto;margin-right:auto}
+h1{color:#ff4d6d}
+</style>
+</head>
+<body>
+<div id="lock">
+<p>دخلي الباسورد يا سرسورتي 🔐</p>
+<input type="password" id="pass" placeholder="اكتبي هنا">
+<br><button onclick="check()">افتحي</button>
+</div>
+<div id="gift">
+<h1>احلى هابي مسج لعيون حبيبة قلبي❤</h1>
+<p>بحبك أوي ي ساره بموت فيكي يحبي بجد</p>
+<p>احلى صدفه شوفتها في حياتي بجد</p>
+<p>نت مش حبيبتي بس لا نت امي وبنتي وحبيبتي وروحي و اختي و صحبتي</p>
+<p>بس اكتر حاجة فيهم انك بنتي بجد بشوفك بنتي عشان كدا بخاف عليكي بزياده يا بنوتي</p>
+<p>من ساعة ما دخلتي حياتي واكني دخلت الجنه حياتي اتغيرت وبقا كلها نور</p>
+<p>بقيت بحب حياتي وعندي حاجة اعيش عشانها بجد بحبك من كل قلبي</p>
+<p><b>بحبك قد الدنيا كلها وقد البحر وسمكاته ❤️</b></p>
+<br>
+<p>بحبك كلك على بعض كلك حلوه وتتحبي</p>
+<p>اكتر حاجة بحبها فيكي صوتك وضحكتك وشعرك</p>
+<p>واكتر حاجة بتشدني ليكي بجد هي عيونك</p>
+<p>عيونك دول بيخدوني لعالم تاني اول ما اشوف عيونك برتاح</p>
+<p>لو فيا وجع الدنيا كله وشوفت بس عيونك هرتاح والله يروحي</p>
+<p>بحب شخصيتك اوي بحب حنيتك بحب اهتمامك بيا وخوفك على زعلي</p>
+<p>عمري ما سبتيني لوحدي زعلان دايما بتخديني في حضنك وبتحتويني</p>
+<p><b>بجد بحبك من كل قلبي عشان نت انسانه فيكي كل الصفات الحلوه وتتحبي بجد</b></p>
+<p><b>بحبك يا اميرتي الصغنونه 👑</b></p>
+<br>
+<p>نفسي اتجوزك ونكون في بيت واحد</p>
+<p>عايز ادوق القهوة بملح من ايدك 😂🙃</p>
+<p>نفسي اكمل بيكي نصي التاني</p>
+<p>عايزك ام لعيالي عايز اجيب منك مهند وياسمين</p>
+<p>بوعدك يروحي هخليكي تعيشي احلى ايام حياتك</p>
+<p>وبوعدك اني هعمل كل حاجة عشان اتجوزك وتكوني ليا</p>
+<p><b>بحبك يروحي 💍</b></p>
+</div>
+<script>
+function check(){
+if(document.getElementById('pass').value === '29/11'){
+document.getElementById('lock').style.display='none';
+document.getElementById('gift').style.display='block';
+}else{alert('غلط جربي تاني يا سرسورتي')}
+}
+</script>
+</body>
+</html>
